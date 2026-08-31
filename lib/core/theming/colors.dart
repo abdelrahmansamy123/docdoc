@@ -8,4 +8,5 @@ class ColorsManager {
   static const kDarkBlue = Color(0xff242424);
   static const kMoreLightGray = Color(0xfffdfdfd);
   static const kDarkBlack = Color.fromARGB(255, 6, 6, 6);
+  static const kRed = Color(0xffFF0000);
 }
