@@ -55,6 +55,7 @@ dependencies:
   # SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
   flutter_svg: ^2.3.0
   flutter_screenutil: ^5.9.3
+  firebase_core: ^4.14.0
 
 dev_dependencies:
   flutter_test:
