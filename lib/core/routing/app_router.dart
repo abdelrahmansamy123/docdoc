@@ -1,6 +1,6 @@
 import 'package:doctor/core/di/dependency_injection.dart';
 import 'package:doctor/core/routing/routes.dart';
-import 'package:doctor/features/home/ui/widgets/home_Screen.dart';
+import 'package:doctor/features/home/ui/home_Screen.dart';
 import 'package:doctor/features/login/logic/cubit/login_cubit.dart';
 import 'package:doctor/features/login/ui/login_screen.dart';
 import 'package:doctor/features/onboarding/onboarding_screen.dart';
