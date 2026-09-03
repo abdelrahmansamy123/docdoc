@@ -37,6 +37,11 @@ class TextStyles {
     fontWeight: FontWeightHelper.regular,
     color: ColorsManager.kGray,
   );
+  static TextStyle font12GrayRegular = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeightHelper.regular,
+    color: ColorsManager.kGray,
+  );
   static TextStyle font14GDarkBlueMedium = TextStyle(
     fontSize: 14.sp,
     fontWeight: FontWeightHelper.medium,
@@ -45,6 +50,11 @@ class TextStyles {
   static TextStyle font15GDarkBlueMedium = TextStyle(
     fontSize: 15.sp,
     fontWeight: FontWeightHelper.medium,
+    color: ColorsManager.kDarkBlue,
+  );
+  static TextStyle font18GDarkBlueBold = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeightHelper.bold,
     color: ColorsManager.kDarkBlue,
   );
   static TextStyle font13GDarkBlackRegular = TextStyle(
