@@ -19,7 +19,7 @@ class SignupBlocListener extends StatelessWidget {
           current is SignupError,
       listener: (context, state) {
         state.whenOrNull(
-          loading: () {
+          signupLoading: () {
             showDialog(
               context: context,
               builder: (context) => const Center(
@@ -29,7 +29,7 @@ class SignupBlocListener extends StatelessWidget {
               ),
             );
           },
-          signupSuccess: (SignupResponse) {
+          signupSuccess: (_) {
             context.pop();
             context.pushNamed(Routes.homeScreen);
           },

@@ -175,7 +175,7 @@ return signupError(_that.error);case _:
 /// }
 /// ```
 
-@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function()?  initial,TResult? Function()?  signupLoading,TResult? Function( T data)?  signupSuccess,TResult? Function( String error)?  signupError, required Null Function() loading,}) {final _that = this;
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>({TResult? Function()?  initial,TResult? Function()?  signupLoading,TResult? Function( T data)?  signupSuccess,TResult? Function( String error)?  signupError,}) {final _that = this;
 switch (_that) {
 case _Initial() when initial != null:
 return initial();case SignupLoading() when signupLoading != null:
