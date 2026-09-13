@@ -60,6 +60,8 @@ dependencies:
   cached_network_image: ^3.4.1
   # shared preferences for storing simple data persistently
   shared_preferences: ^2.5.5
+  # A Flutter plugin for securely storing sensitive data using encrypted storage.
+  flutter_secure_storage: ^11.1.1
 
 dev_dependencies:
   flutter_test:
