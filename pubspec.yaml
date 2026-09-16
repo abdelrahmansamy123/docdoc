@@ -62,6 +62,8 @@ dependencies:
   shared_preferences: ^2.5.5
   # A Flutter plugin for securely storing sensitive data using encrypted storage.
   flutter_secure_storage: ^11.1.1
+  # A lightweight Flutter widget that paints a moving highlight over skeleton placeholders
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_test:
